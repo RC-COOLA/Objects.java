@@ -1,6 +1,6 @@
 public class Vehicle {
     protected int speed;
-    public float fuel;   
+     public float fuel;   
 
     //Constructor for the speed ans fuel 
     public Vehicle(int speed, float fuel) {
@@ -15,7 +15,7 @@ public class Vehicle {
 
     // Method to stop the vehicle
     public void stop () {
-        System.out.println("The vehicle has stopped.");
+     System.out.println("The vehicle has stopped.");
     }
 
      fuel level
@@ -25,7 +25,7 @@ public class Vehicle {
 
     // Getter for speed
     public int getSpeed() {
-        return this.speed;
+     return this.speed;
     }
 
     // Setter for speed
@@ -39,7 +39,7 @@ public class Vehicle {
     }
 
     // Setter for fuel
-    public void setFuel(float fuel) {
+    public void setFuel (float fuel) {
         this.fuel = fuel;
     }
 }
