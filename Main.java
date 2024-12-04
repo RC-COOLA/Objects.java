@@ -12,10 +12,10 @@ public class Main {
 
         car.setSpeed(150);
         car.setFuel(40.0);
-        System.out.println("Updated Car Speed: " + car.getSpeed() + " MPH");
+        System.out.println("Updated Car Speed:" + car.getSpeed() + " MPH");
         System.out.println("Updated Car Fuel: " + car.getFuel() + " liters");
 
-        bicycle.setHasBell(false);
+        bicycle.sethasBell(false);
         bicycle.ringBell();
     }
 }
